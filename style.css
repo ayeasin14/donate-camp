@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.my_section {
+    margin-top: 29px;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/donation10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.button {
+    background-color: rgb(241, 51, 51);
+    padding: 17px;
+    margin-top: 30px;
+    color: #fff;
+    border: 2px solid rgb(241, 51, 51);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.today {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+
+}
+
+.taka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.box {
+    width: 135px;
+    height: 123px;
+    font-weight: bold;
+    color: grey;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    /* box-shadow: 0px 2px 2px px rgb(148, 107, 107); */
+    /* background-color: rgb(229, 208, 197); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+p {
+    color: rgb(163, 162, 162);
+    margin: 20px;
+
+}
+
+.parag {
+    color: #fff;
+    text-align: left;
+}
+
+.extra {
+    background-color: rgb(247, 203, 179);
+    border: 1px solid rgb(245, 100, 22);
+}
+
+.field {
+    margin-top: 55px;
+}
+
+.amount {
+    color: grey;
+    font-weight: bold;
+    width: 500px;
+    height: 50px;
+    border: none;
+}
+
+hr {
+    color: rgb(141, 138, 138);
+    width: 60%;
+    /* height: 1px; */
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left: 20%;
+    margin-top: 10px;
+
+}
+
+.division {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 10px;
+
+}
+
+.category {
+    /* margin: 0 auto; */
+    margin-left: 16px;
+    border-radius: 5px;
+    width: 400px;
+    height: 220px;
+    padding: 16px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.first {
+    background-color: #4F9DA6;
+
+}
+
+.second {
+    background-color: #FF5959;
+}
+
+.third {
+    background-color: #e75757;
+}
+
+.how_contribute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    width: 90%;
+}
+
+.contribute {
+    padding: 40px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.updates {
+    text-align: center;
+    margin-top: 46px;
+}
+
+.mail {
+    margin-top: 28px;
+    width: 80%;
+    height: 180px;
+    margin-left: 10%;
+    background-color: #e75757;
+    text-align: center;
+    border-radius: 5px 0 0 0;
+
+}
+
+
+/* input */
+.text_in {
+
+    width: 30%;
+    height: 40px;
+    top: 50%;
+    margin-top: 65px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(215, 181, 181);
+
+}
+
+/* login */
+.login_form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+
+    margin-left: 10%;
+
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+    font-family: "Sansita Swashed", cursive;
+}
+
+.center {
+    position: relative;
+    padding: 50px 50px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.center h1 {
+    font-size: 2em;
+    border-left: 5px solid dodgerblue;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.center .inputbox {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.center .inputbox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #000;
+    outline: none;
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.center .inputbox:last-child {
+    margin-bottom: 0;
+}
+
+.center .inputbox span {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 1em;
+    transition: 0.6s;
+    font-family: sans-serif;
+}
+
+.center .inputbox input:focus~span,
+.center .inputbox input:valid~span {
+    transform: translateX(-13px) translateY(-35px);
+    font-size: 1em;
+}
+
+.center .inputbox [type="button"] {
+    width: 50%;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+}
+
+.center .inputbox:hover [type="button"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+footer {
+    background-color: black;
+    width: 80%;
+    height: 170px;
+    margin-left: 10%;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+footer p {
+    margin-left: 45%;
+}
+
+.foo {
+    color: #e75757;
+}
